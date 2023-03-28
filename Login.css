@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+.main{
+    margin: 0 30px 0 30px;
+}
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    padding: 15px;
+    align-items: center;
+    
+    
+}
+.header_logo a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+}
+.header_options{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.header_options a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.content_corner{
+    width: 40%;
+}
+.content_main{
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content button{
+    color:#fff;
+    background-color:blue;
+    width: 100px;
+    height: 40px;
+}
+.content_main input{
+    width: 300px;
+    padding: 10px;
+}
+.content_main select{
+    width: 310px;
+}
